@@ -70,8 +70,7 @@ public abstract class DynamoDBTestBase {
   }
 
   /**
-   * CSVからデータを作成する.
-   *
+   * Excelファイルからデータを投入する.
    * @param excelFileName Excelファイル名
    */
   protected void insertTestData(String excelFileName) throws ClassNotFoundException, IOException {
