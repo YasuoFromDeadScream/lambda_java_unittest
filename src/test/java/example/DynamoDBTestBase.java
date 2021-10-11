@@ -140,8 +140,7 @@ public abstract class DynamoDBTestBase {
           .getGlobalSecondaryIndexes()
           .forEach(
               globalSecondaryIndex -> {
-                globalSecondaryIndex.setProvisionedThroughput(new ProvisionedThroughput(5L, 1L));
-                // 実際にはIndex毎に保持する要素が分かれるがModel側に指定できるアノテーションが見つからないので全部持ち
+                globalSecondaryIndex.setProvisionedThroughput(new ProvisionedThroughput(1L, 1L));
                 globalSecondaryIndex.setProjection(
                     new Projection().withProjectionType(ProjectionType.KEYS_ONLY));
               });
