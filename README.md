@@ -1,3 +1,7 @@
+利用方法は下記ページで紹介.
+
+https://ikoda.shop/entry/2021/10/12/070000
+
 # Basic function with minimal dependencies (Java)
 
 ![Architecture](/sample-apps/java-basic/images/sample-java-basic.png)
